@@ -1,0 +1,45 @@
+.Global{
+    text-align: center;
+    padding: 10px;
+}
+.From{
+    margin: 0 auto;
+}
+.Dis{
+    display: inline-block;
+}
+.But{
+    display: inline-block;
+}
+
+/* Gallary */
+
+.Book{
+    display: inline-block;
+    width: 220px;
+    height: 220px;
+    margin: 10px;
+    text-align: left;
+    cursor: pointer;
+    position: relative;
+}
+.Book-img{
+    width: 220px;
+    height: 220px;
+    border: 4px solid #000000;
+    border-radius: 4px;
+    object-fit: cover;
+    position: absolute;
+}
+
+.Book-text{
+    background-color: #000000;
+    color: #ffffff;
+    opacity: 0.75;
+    width: 214px;
+    margin-left: 3px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+}
